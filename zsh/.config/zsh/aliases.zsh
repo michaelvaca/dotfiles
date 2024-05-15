@@ -3,6 +3,7 @@ alias mv="mv -iv"
 alias cp="cp -riv"
 alias mkdir="mkdir -vp"
 alias rm="rm -iv"
+alias ls="eza"
 
 # Colorize grep output
 alias grep="grep --color=auto"

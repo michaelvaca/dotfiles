@@ -2,7 +2,7 @@
 [ -f "${XDG_DATA_HOME:-$HOME/.local/share}/zap/zap.zsh" ] && source "${XDG_DATA_HOME:-$HOME/.local/share}/zap/zap.zsh"
 
 # history
-HISTFILE=~/.config/zsh/.zsh_history
+HISTFILE=~/.zsh_history
 
 # source
 plug "$HOME/.config/zsh/aliases.zsh"
@@ -17,4 +17,4 @@ plug "zsh-users/zsh-history-substring-search"
 
 # Load and initialise completion system
 autoload -Uz compinit
-compinit
+compinit -d ~/.zcompdump
