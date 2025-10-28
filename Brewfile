@@ -44,6 +44,7 @@ brew "git-delta"
 brew "starship"
 brew "readline"
 brew "asciinema"
+brew "agg" # Convert asciinema cast to gif
 brew "asciiquarium"
 brew "markdown"
 brew "cmatrix"
