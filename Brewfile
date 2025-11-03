@@ -63,6 +63,10 @@ brew "nethack"
 brew "rustup"
 brew "rust"
 
+# Python
+brew "ruff"
+brew "basedpyright"
+
 # Golang
 brew "golang"
 
