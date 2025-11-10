@@ -53,11 +53,16 @@ brew "cmatrix"
 brew "cbonsai"
 brew "harper" # Grammerly-like
 brew "sqlc"
+brew "pre-commit"
 
 brew "hugo"
 
 # Games
 brew "nethack"
+
+# CPP
+brew "llvm"
+brew "clang-format"
 
 # Rust
 brew "rustup"
